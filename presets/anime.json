@@ -42,6 +42,7 @@
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
         "AlbedoBase_XL.safetensors": "https://civitai.com/api/download/models/238308?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "DucHaiten-OldDream.safetensors": "https://civitai.com/api/download/models/209459",
         "DreamShaper_8_pruned.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors"
     },
     "embeddings_downloads": {
