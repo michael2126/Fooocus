@@ -12,8 +12,8 @@
             0.5
         ],
         [
-            "None",
-            1.0
+            "Detail_Tweaker_XL.safetensors",
+            0.7
         ],
         [
             "None",
@@ -52,6 +52,7 @@
     },
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
-        "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor"
+        "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
+        "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor"
     }
 }
