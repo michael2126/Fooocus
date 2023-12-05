@@ -1,5 +1,5 @@
 {
-    "default_model": "DucHaiten-OldDream.safetensor",
+    "default_model": "DucHaiten-OldDream.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.667,
     "default_loras": [
