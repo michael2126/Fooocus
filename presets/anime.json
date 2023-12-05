@@ -1,6 +1,6 @@
 {
-    "default_model": "AlbedoBase_XL.safetensors",
-    "default_refiner": "DreamShaper_8_pruned.safetensors",
+    "default_model": "DucHaiten-OldDream.safetensor",
+    "default_refiner": "",
     "default_refiner_switch": 0.667,
     "default_loras": [
         [
@@ -8,8 +8,8 @@
             0.5
         ],
         [
-            "None",
-            1.0
+            "xl_more_art-full.safetensors",
+            0.5
         ],
         [
             "None",
