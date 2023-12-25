@@ -1,5 +1,5 @@
 {
-    "default_model": "leosamAiartSDXL_v10.safetensors",
+    "default_model": "leosamAiartSDXL_v20.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.667,
     "default_loras": [
@@ -32,17 +32,11 @@
     "default_prompt": "1girl, ",
     "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark",
     "default_styles": [
-        "Fooocus V2",
-        "Fooocus Masterpiece",
-        "SAI Anime",
-        "SAI Digital Art",
-        "SAI Enhance",
-        "SAI Fantasy Art"
+        "Fooocus V2"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "leosamAiartSDXL_v10.safetensors": "https://civitai.com/api/download/models/247832?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        "DreamShaper_8_pruned.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors"
+        "leosamAiartSDXL_v20.safetensors": "https://civitai.com/api/download/models/262976?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
@@ -52,6 +46,10 @@
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
         "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
-        "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor"
+        "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "PastelartXL.safetensors": "https://civitai.com/api/download/models/166183?type=Model&format=SafeTensor",
+        "ParchartXL.safetensors": "https://civitai.com/api/download/models/162231?type=Model&format=SafeTensor",
+        "ClassipeintXL_oil_paint_style_LoRA.safetensors": "https://civitai.com/api/download/models/163652?type=Model&format=SafeTensor",
+        "SDXL_Film_Photography_Style.safetensors": "https://civitai.com/api/download/models/180569?type=Model&format=SafeTensor"
     }
 }
