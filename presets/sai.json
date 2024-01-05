@@ -1,31 +1,31 @@
 {
     "default_model": "sd_xl_base_1.0_0.9vae.safetensors",
-    "default_refiner": "sd_xl_refiner_1.0_0.9vae.safetensors",
+    "default_refiner": "",
     "default_refiner_switch": 0.75,
     "default_loras": [
         [
             "sd_xl_offset_example-lora_1.0.safetensors",
-            0.0
+            0.5
         ],
         [
             "xl_more_art-full.safetensors",
-            0.0
+            0.5
         ],
         [
             "PastelartXL.safetensors",
-            0.0
+            0.5
         ],
         [
             "Detail_Tweaker_XL.safetensors",
-            0.0
+            0.5
         ],
         [
             "ParchartXL.safetensors",
-            0.0
+            0.5
         ],
         [
             "ClassipeintXL_oil_paint_style_LoRA.safetensors",
-            0.0
+            0.5
         ]
     ],
     "default_cfg_scale": 7.0,
@@ -41,8 +41,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "sd_xl_base_1.0_0.9vae.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors",
-        "sd_xl_refiner_1.0_0.9vae.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors"
+        "sd_xl_base_1.0_0.9vae.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
