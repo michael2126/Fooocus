@@ -1,5 +1,5 @@
 {
-    "default_model": "Starlight_XL.safetensors",
+    "default_model": "SDXL_FaeTastic.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.75,
     "default_loras": [
@@ -41,7 +41,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "Starlight_XL.safetensors": "https://civitai.com/api/download/models/182077?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "SDXL_FaeTastic.safetensors": "https://civitai.com/api/download/models/291443"
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
