@@ -1,47 +1,60 @@
 {
-    "default_model": "realisticStockPhoto_v10.safetensors",
+    "default_model": "SDXL_Yamer's_Realistic.safetensors",
     "default_refiner": "",
-    "default_refiner_switch": 0.5,
+    "default_refiner_switch": 0.0,
     "default_loras": [
         [
-            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-            0.25
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.5
+        ],
+        [
+            "xl_more_art-full.safetensors",
+            0.5
+        ],
+        [
+            "PastelartXL.safetensors",
+            0.5
+        ],
+        [
+            "Detail_Tweaker_XL.safetensors",
+            0.5
+        ],
+        [
+            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
+            0.5
         ],
         [
             "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
+            1
         ]
     ],
-    "default_cfg_scale": 3.0,
+    "default_cfg_scale": 7.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Photograph",
-        "Fooocus Negative"
+        "Fooocus Cinematic"
     ],
-    "default_aspect_ratio": "896*1152",
+    "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "realisticStockPhoto_v10.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors"
+        "SDXL_Yamer's_Realistic.safetensors": "https://civitai.com/api/download/models/272724"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
+        "unaestheticXL_AYv1.safetensors": "https://civitai.com/api/download/models/162146?type=Model&format=SafeTensor",
+        "unaestheticXL_Jug6.safetensors": "https://civitai.com/api/download/models/207934?type=Model&format=SafeTensor",
+        "negativeXL.safetensors": "https://civitai.com/api/download/models/134583"
+    },
     "lora_downloads": {
-        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
+        "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "PastelartXL.safetensors": "https://civitai.com/api/download/models/166183?type=Model&format=SafeTensor",
+        "ParchartXL.safetensors": "https://civitai.com/api/download/models/162231?type=Model&format=SafeTensor",
+        "ClassipeintXL_oil_paint_style_LoRA.safetensors": "https://civitai.com/api/download/models/163652?type=Model&format=SafeTensor"
     }
 }
