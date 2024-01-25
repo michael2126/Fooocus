@@ -4,7 +4,7 @@
     "default_refiner_switch": 0.75,
     "default_loras": [
         [
-            "sd_xl_offset_example-lora_1.0.safetensors",
+            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
             0.5
         ],
         [
