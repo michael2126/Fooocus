@@ -1,5 +1,5 @@
 {
-    "default_model": "SDXL_Yamer's_Realistic.safetensors",
+    "default_model": "AlbedoBase_Xl.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.0,
     "default_loras": [
@@ -41,7 +41,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "SDXL_Yamer's_Realistic.safetensors": "https://civitai.com/api/download/models/272724"
+        "AlbedoBase_Xl.safetensors": "https://civitai.com/api/download/models/281176"
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
