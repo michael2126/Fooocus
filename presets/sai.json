@@ -1,10 +1,10 @@
 {
-    "default_model": "sd_xl_base_1.0_0.9vae.safetensors",
+    "default_model": "CounterfeitXL.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.75,
     "default_loras": [
         [
-            "sd_xl_offset_example-lora_1.0.safetensors",
+            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
             0.5
         ],
         [
@@ -24,8 +24,8 @@
             0.5
         ],
         [
-            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
-            0.5
+            "None",
+            1
         ]
     ],
     "default_cfg_scale": 7.0,
@@ -41,9 +41,15 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "sd_xl_base_1.0_0.9vae.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
+        "CounterfeitXL.safetensors": "https://civitai.com/api/download/models/265012"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
+        "unaestheticXL_AYv1.safetensors": "https://civitai.com/api/download/models/162146?type=Model&format=SafeTensor",
+        "unaestheticXL_Jug6.safetensors": "https://civitai.com/api/download/models/207934?type=Model&format=SafeTensor",
+        "negativeXL.safetensors": "https://civitai.com/api/download/models/134583",
+        "ImgFixer.safetensors": "https://civitai.com/api/download/models/159184?type=Model&format=SafeTensor"
+    },
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
         "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
