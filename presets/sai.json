@@ -1,5 +1,5 @@
 {
-    "default_model": "CounterfeitXL.safetensors",
+    "default_model": "dreamshaperxl.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.75,
     "default_loras": [
@@ -41,7 +41,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "CounterfeitXL.safetensors": "https://civitai.com/api/download/models/265012"
+        "dreamshaperxl.safetensors": "https://civitai.com/api/download/models/333449"
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
