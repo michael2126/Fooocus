@@ -1,30 +1,34 @@
 {
-    "default_model": "juggernautXL_version6Rundiffusion.safetensors",
-    "default_refiner": "None",
-    "default_refiner_switch": 0.5,
+    "default_model": "ZBase.safetensors",
+    "default_refiner": "",
+    "default_refiner_switch": 0.75,
     "default_loras": [
         [
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
+            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
+            0.0
+        ],
+        [
+            "xl_more_art-full.safetensors",
+            0.0
+        ],
+        [
+            "PastelartXL.safetensors",
+            0.0
+        ],
+        [
+            "Detail_Tweaker_XL.safetensors",
+            0.0
+        ],
+        [
+            "Aesthetic_Anime.safetensors",
+            0.0
         ],
         [
             "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
-        ],
-        [
-            "None",
-            1.0
+            1
         ]
     ],
-    "default_cfg_scale": 4.0,
+    "default_cfg_scale": 7.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -33,15 +37,28 @@
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Cinematic"
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
+        "ZBase.safetensors": "https://civitai.com/api/download/models/365026"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
+        "unaestheticXL_AYv1.safetensors": "https://civitai.com/api/download/models/162146?type=Model&format=SafeTensor",
+        "unaestheticXL_Jug6.safetensors": "https://civitai.com/api/download/models/207934?type=Model&format=SafeTensor",
+        "negativeXL.safetensors": "https://civitai.com/api/download/models/134583",
+        "ImgFixer.safetensors": "https://civitai.com/api/download/models/159184?type=Model&format=SafeTensor",
+        "BadDream.PickleTensors": "https://civitai.com/api/download/models/77169?type=Model&format=PickleTensor"
+    },
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
+        "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
+        "PastelartXL.safetensors": "https://civitai.com/api/download/models/166183?type=Model&format=SafeTensor",
+        "ParchartXL.safetensors": "https://civitai.com/api/download/models/162231?type=Model&format=SafeTensor",
+        "ClassipeintXL_oil_paint_style_LoRA.safetensors": "https://civitai.com/api/download/models/163652?type=Model&format=SafeTensor",
+        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor",
+        "Bestiarum.safetensors": "https://civitai.com/api/download/models/322353?type=Model&format=SafeTensor"
     }
 }
