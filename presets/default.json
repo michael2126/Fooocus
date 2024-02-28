@@ -44,7 +44,6 @@
         "ZBase.safetensors": "https://civitai.com/api/download/models/365026"
     },
     "embeddings_downloads": {
-        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
         "unaestheticXL_AYv1.safetensors": "https://civitai.com/api/download/models/162146?type=Model&format=SafeTensor",
         "unaestheticXL_Jug6.safetensors": "https://civitai.com/api/download/models/207934?type=Model&format=SafeTensor",
         "negativeXL.safetensors": "https://civitai.com/api/download/models/134583",
@@ -52,7 +51,6 @@
         "BadDream.PickleTensors": "https://civitai.com/api/download/models/77169?type=Model&format=PickleTensor"
     },
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
         "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
         "Detail_Tweaker_XL.safetensors": "https://civitai.com/api/download/models/135867?type=Model&format=SafeTensor",
         "PastelartXL.safetensors": "https://civitai.com/api/download/models/166183?type=Model&format=SafeTensor",
