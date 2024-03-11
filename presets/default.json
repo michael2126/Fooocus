@@ -4,7 +4,7 @@
     "default_refiner_switch": 0.75,
     "default_loras": [
         [
-            "Fantasy_Wizard_&_Witches.safetensors",
+            "Fantasy_Wizard_Witches.safetensors",
             0.0
         ],
         [
@@ -57,6 +57,6 @@
         "ClassipeintXL_oil_paint_style_LoRA.safetensors": "https://civitai.com/api/download/models/163652?type=Model&format=SafeTensor",
         "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor", 
         "XL_Weapon_Spell_Rings.safetensors": "https://civitai.com/api/download/models/382735?type=Model&format=SafeTensor", 
-        "Fantasy_Wizard_&_Witches.safetensors": "https://civitai.com/api/download/models/345857?type=Model&format=SafeTensor"
+        "Fantasy_Wizard_Witches.safetensors": "https://civitai.com/api/download/models/345857?type=Model&format=SafeTensor"
     }
 }
