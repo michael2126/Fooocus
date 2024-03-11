@@ -4,7 +4,7 @@
     "default_refiner_switch": 0.75,
     "default_loras": [
         [
-            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
+            "Fantasy_Wizard_&_Witches.safetensors",
             0.0
         ],
         [
@@ -12,7 +12,7 @@
             0.0
         ],
         [
-            "PastelartXL.safetensors",
+            "XL_Weapon_Spell_Rings.safetensors",
             0.0
         ],
         [
@@ -41,14 +41,13 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "ZBase.safetensors": "https://civitai.com/api/download/models/365026"
+        "ZBase.safetensors": "https://civitai.com/api/download/models/368423"
     },
     "embeddings_downloads": {
         "unaestheticXL_AYv1.safetensors": "https://civitai.com/api/download/models/162146?type=Model&format=SafeTensor",
         "unaestheticXL_Jug6.safetensors": "https://civitai.com/api/download/models/207934?type=Model&format=SafeTensor",
         "negativeXL.safetensors": "https://civitai.com/api/download/models/134583",
-        "ImgFixer.safetensors": "https://civitai.com/api/download/models/159184?type=Model&format=SafeTensor",
-        "BadDream.PickleTensors": "https://civitai.com/api/download/models/77169?type=Model&format=PickleTensor"
+        "ImgFixer.safetensors": "https://civitai.com/api/download/models/159184?type=Model&format=SafeTensor"
     },
     "lora_downloads": {
         "xl_more_art-full.safetensors": "https://civitai.com/api/download/models/152309?type=Model&format=SafeTensor",
@@ -56,6 +55,8 @@
         "PastelartXL.safetensors": "https://civitai.com/api/download/models/166183?type=Model&format=SafeTensor",
         "ParchartXL.safetensors": "https://civitai.com/api/download/models/162231?type=Model&format=SafeTensor",
         "ClassipeintXL_oil_paint_style_LoRA.safetensors": "https://civitai.com/api/download/models/163652?type=Model&format=SafeTensor",
-        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor"
+        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor", 
+        "XL_Weapon_Spell_Rings.safetensors": "https://civitai.com/api/download/models/382735?type=Model&format=SafeTensor", 
+        "Fantasy_Wizard_&_Witches.safetensors": "https://civitai.com/api/download/models/345857?type=Model&format=SafeTensor"
     }
 }
