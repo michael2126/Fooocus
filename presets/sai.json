@@ -4,7 +4,7 @@
     "default_refiner_switch": 0.75,
     "default_loras": [
         [
-            "ClassipeintXL_oil_paint_style_LoRA.safetensors",
+            "DetailedEyes.safetensors",
             0.0
         ],
         [
@@ -12,7 +12,7 @@
             0.0
         ],
         [
-            "PastelartXL.safetensors",
+            "extremely_detailed.safetensors",
             0.0
         ],
         [
@@ -58,6 +58,9 @@
         "PastelartXL.safetensors": "https://civitai.com/api/download/models/166183?type=Model&format=SafeTensor",
         "ParchartXL.safetensors": "https://civitai.com/api/download/models/162231?type=Model&format=SafeTensor",
         "ClassipeintXL_oil_paint_style_LoRA.safetensors": "https://civitai.com/api/download/models/163652?type=Model&format=SafeTensor",
-        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor"
+        "Aesthetic_Anime.safetensors": "https://civitai.com/api/download/models/331598?type=Model&format=SafeTensor",
+        "xl_Weapons.safetensors": "civitai.com/api/download/models/238330?type=Model&format=SafeTensor",
+        "extremely_detailed.safetensors": "https://civitai.com/api/download/models/383563?type=Model&format=SafeTensor",
+        "DetailedEyes.safetensors": "https://civitai.com/api/download/models/145907"        
     }
 }
